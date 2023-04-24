@@ -1,0 +1,4 @@
+pyinstaller --noconfirm --onedir --windowed --icon "C:/Users/natee/OneDrive/Desktop/GW2 Code/GW2 Code/NightCourt.ico" --name "AutoSalvage" --add-data "C:/Users/natee/AppData/Local/Programs/Python/Python310/Lib/site-packages/customtkinter;customtkinter/" --add-data "C:/Users/natee/OneDrive/Desktop/GW2 Processing/Images;Images/"  "C:/Users/natee/OneDrive/Desktop/GW2 Processing/main.py"
+
+// This should be the current version:
+pyinstaller --noconfirm --onedir --windowed --icon "C:/Users/natee/OneDrive/Desktop/GW2 Processing/Assets/Images/Moon.ico" --name "AutoSalvage" --add-data "C:/Users/natee/OneDrive/Desktop/GW2 Processing/Assets/Images;Images/" --add-data "C:/Users/natee/OneDrive/Desktop/GW2 Processing/Assets/Scripts;Scripts/"  "C:/Users/natee/OneDrive/Desktop/GW2 Processing/Assets/main.py"
