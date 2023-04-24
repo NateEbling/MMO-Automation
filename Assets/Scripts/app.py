@@ -25,7 +25,7 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("GW2 Automatic Processing")
+        self.title("Automatic Processing")
         self.geometry(f"{self.RESOLUTION_X}x{self.RESOLUTION_Y}")
         self.resizable(False, False)
         self.iconbitmap("Assets/Images/Moon.ico")
